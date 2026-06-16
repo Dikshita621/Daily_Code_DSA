@@ -14,7 +14,6 @@ typedef struct {
 int compare(const void *a, const void *b) {
     return ((Car *)b)->position - ((Car *)a)->position;
 }
-
 int main() {
     int n, target;
     scanf("%d %d", &n, &target);
