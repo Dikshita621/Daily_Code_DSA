@@ -3,7 +3,6 @@ Distribute into buckets, sort each, concatenate.*/
 #include <stdio.h>
 
 #define MAX 100
-
 // Insertion sort for individual buckets
 void insertionSort(float arr[], int n) {
     for (int i = 1; i < n; i++) {
